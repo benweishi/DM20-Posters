@@ -17,8 +17,8 @@ title: Data Mining 2020 Final Project Posters
 description: >- # this means to ignore newlines until "baseurl:"
   This is the online poster session for [University of Utah](https://www.utah.edu/) [CS 5140/6140 Data
   Mining 2020](http://www.cs.utah.edu/~jeffp/teaching/cs5140.html) students course projects.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/DM20-Posters" # the subpath of your site, e.g. /blog
+url: "https://benweishi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: 
 
