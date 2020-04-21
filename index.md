@@ -5,6 +5,10 @@
 layout: home
 ---
 
+<div class="hero">
+  <img alt="world cloud" src="{{ '/assets/images/wordcloud.png' | relative_url }}">
+</div>
+
 <div class="projects-grid">
 {% for project in site.data.projects %}
 <div class="projects-cell">
