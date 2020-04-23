@@ -21,7 +21,7 @@ layout: home
     {{ project_title }}
   </div>
   <div class="projects-members">
-    {{ project.members }}
+    {% if project.show_names == 'No' %} Names are not available {% else %} {{ project.members }} {% endif %}
   </div>
   <div class="projects-time">
     {% if project.tw300.size > 0 %} <a href="{{ project.tw300 }}" target="zoom_link">03:00</a>; {% endif %}
