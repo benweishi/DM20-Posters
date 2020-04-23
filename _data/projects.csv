@@ -1,9 +1,54 @@
-name,number,members,address,time
-test project 1,01234567,test name 11; test name 12; test name 13,http://www.google.com,4:00-4:30pm 5:00-5:30pm
-test project test project 2,76543210,test name 21; test name 22,http://www.amazon.com,4:30-5:00pm 5:30-6:00pm
-test project 1,01234567,test name 11; test name 12,http://www.google.com,4:00-4:30pm 5:00-5:30pm
-test project 2,76543210,test name 21; test name 22,http://www.amazon.com,4:30-5:00pm 5:30-6:00pm
-test project 1,01234567,test name 11; test name 12,http://www.google.com,4:00-4:30pm 5:00-5:30pm
-test project 2,76543210,test name 21; test name 22,http://www.amazon.com,4:30-5:00pm 5:30-6:00pm
-test project 1,01234567,test name 11; test name 12,http://www.google.com,4:00-4:30pm 5:00-5:30pm
-test project 2,76543210,test name 21; test name 22,http://www.amazon.com,4:30-5:00pm 5:30-6:00pm
+ID,Group_Name,members,Title,Zoom_link,time_slots,,,EPVT
+1,3D CAD Model Datasets,JIAHUI CHEN; MARK VAN DER MERWE,,,04:30; 05:00,,,04:54pm
+2,Analyzing Text Corpus,MADISON COOLEY; XUYANG LI; MARIO MAGANA-GARCIA,Most Frequent Words in American and British English Publications,https://us04web.zoom.us/j/7435719146,03:30; 04:00; 04:30,,,03:21pm
+3,AUDL Teams,LAURA BRANNAN; NATHAN ZALTSMAN,,,03:30; 04:00,,,03:12pm
+4,Authorship Identification,SOFIA NYSTROEM; TOM PACE,,,03:30; 04:00,,,03:18pm
+5,Automated analysis of conferenceabstracts to group and arrange by topic,WASIF AHMAD; MARK PORITZ,,,04:30; 05:00,,,05:09pm
+6,Avalanche Report Data,MINGXUAN LUO; KELTON WHITE,,https://us04web.zoom.us/j/9637220733,03:30; 04:00,,,03:00pm
+7,Board games,OLEKS KORSHAK; FARSHAD MOGHARRABI; JOSEPH PORTER,,,04:00; 04:30; 05:00,,,05:15pm
+8,BookMate,AKSHAY SINGH; ROHIT SINGH,,https://us04web.zoom.us/j/5794283878,03:30; 04:00,,,04:06pm
+9,Chicago Taxi Trips,ABISHEK KRISHNAN; SHAURYA SAHAI; SUSHMITHA SUNKURDI NATARAJ,,https://us04web.zoom.us/j/8470781298,04:00; 04:30; 05:00,,,05:30pm
+10,Coffee Reviews,LEO KELL; MICHAEL NORTHRUP,,,04:30; 05:00,,,05:36pm
+11,College Basketball Analytics,BRIAN LAVALLEE; HASAN POURMAHMOODAGHABABA,,,04:00; 04:30,,,04:15pm
+12,Credit Scores,GARRET CERVANTEZ,,,4:00,,,04:12pm
+13,Discharge Level Clinical Data,NICHOLAS KEEFER; JAMES WOODRUFF,,,03:30; 05:00,,,03:30pm
+14,Diseases Clustering,MICHAEL BIGELOW,,,4:00,,,04:00pm
+15,Drug Use and Health,KEVIN HARRISON; AUSTIN PRETE; BRAXTON SMITH,,,03:30; 04:00; 05:00,,,03:39pm
+16,Exploring Patterns and Trends on Music,SACHIN BOBAN; KIRANMAYEE DOBBALI; SAIVAMSHI DOBBALI,,https://us04web.zoom.us/j/6234971563,03:30; 04:30; 05:00,,,04:39pm
+17,Finding Relation Between Clusters of Election Tweets,MELVIN BOSNJAK; BLAZE KOTSENBURG; BRANDON WARD,,,03:30; 04:30; 05:00,,,05:06pm
+18,FiveThirtyEight's Russian Troll Tweets,BENJAMIN EAGAR; MEGHAN O'NEILL,,,04:30; 05:00,,,04:51pm
+19,Foreign Political Influence,BRANDON MOUSER; KYLE PRICE; JADEN SIMON,,https://us04web.zoom.us/j/5104168418,03:30; 04:30; 05:00,,,04:45pm
+20,Forest Fire,CHRISTOPHER DE-FREITAS; PRANAV RAJAN,,https://lms-utah.zoom.us/j/96611168057,03:30; 05:00,,,03:33pm
+21,Galaxies,FANGFEI LAN; MICHAEL YOUNG,Galactic explorations with deep learning and clustering,https://zoom.us/j/4817062021,03:30; 05:00,,,05:24pm
+22,Github Activities,EVAN CHILDS; SIERRA JOHNSON; AUSTIN STEPHENS,,,03:30; 04:00; 05:00,,,03:42pm
+23,Honey Bees Data Analysis,LANDEN ANDRA; SCOTT SIEGEL,,https://zoom.us/j/97866431706,04:30; 05:00,,,04:42pm
+24,How ISIS uses twitter,YU-CHING HSU; YULAN WANG; GUINENG ZHENG,,,04:00; 04:30; 05:00,,,04:27pm
+25,Logo Image Feature Extraction,MIKE LINDOW,,,3:30,,,03:15pm
+26,Madrid Airbnb,INDUMATHI DESABATHINA; MADHURA MATHKAR; SREEJA PILLAI,,,04:00; 04:30; 05:00,,,04:33pm
+27,Major League Sports Players,CASEY RAND; KAMERON SERVICE; CHEICK SISSOKO,,,04:00; 04:30; 05:00,,,04:21pm
+28,Marketing Forecasting,HUNTER MAXFIELD,,,5:00,,,05:33pm
+29,Microsoft Office 365 Products Users Habits,ABBY SCHWENDIMAN,,,5:00,,,05:21pm
+30,Minecraft Tasks,NITHIN CHALAPATHI; ALEX HAMRICK,,,03:30; 04:00,,,03:45pm
+31,Movie And News,SERENA AESCHILMAN; HAISLEY BURBIDGE; JAIRON TERRERO,,https://utah.zoom.us/j/5748349229,03:30; 04:00; 04:30,,,03:51pm
+32,Netflix Contents,ALI HASSANDOKHT MASHHADI; BEHNAM SHERAFAT,,,04:00; 04:30,,,04:18pm
+33,NFL Players,JOSEPH BRINTON; ROB SHAMSHOIAN; CHRIS SWINDLE,,,03:30; 04:00; 04:30,,,03:48pm
+34,Patients Data Analysis,SHAD CARLSON; ARTURO LARA CORONADO; PAUL MUEHLEIP,,,03:30; 04:30; 05:00,,,04:48pm
+35,Presidential Election On Stocks,SCOTT GALE; RYAN RIGBY,,,03:30; 04:00,,,03:03pm
+36,Price of Bitcoin.,AMBUJ ARORA; VAI SULIAFU; YICONG XIAO,,,03:30; 04:00; 05:00,,,03:54pm
+37,Psychedelic Trip Reports,JOSHUA CRAGUN; DONGYEONG HWANG; MARSHALL UNDERWOOD,,,03:30; 04:30; 05:00,,,04:57pm
+38,Quasar Spectra,ALLYSON BRODZELLER; CHONGHUAN LI,,https://utah.zoom.us/j/8164041674,04:30; 05:00,,,05:12pm
+39,Reading Difficulty of Paper Titles,DERYA AKBABA; COLE POLYCHRONIS,,,03:30; 04:00,,,03:24pm
+40,Social Media Channels,BRYSON OAR; RYAN OUTTRIM,,https://us04web.zoom.us/j/3693179601 ,04:30; 05:00,,,05:18pm
+41,Solar Energy Production and Weather,ROMAN AMICI; RICHARD TIMPSON,,,03:30; 04:00,,,04:09pm
+42,Song Lyrics,MATTHEW COHEN; SUNGYEON HAN,,,04:30; 05:00,,,05:03pm
+43,SSHD Logs From Cloudlab,ANNESWA GHOSH; SRIRAM SELVAM,,,04:30; 05:00,,,04:36pm
+44,Student Loan and Grant,JESS CAMPBELL; SONA TOROSYAN,,,03:30; 04:00,,,03:27pm
+45,Symbolic Regression Feature Selection,KARL GARBRECHT; PETER HOWLEY; SCOTT KRSTYEN,,,03:30; 04:00; 04:30,,,03:06pm
+46,Systems Log File Analysis,ABUBAKER ABDELMUTALAB; NIKHIL RAMESH; TANMAY TIRPANKAR,,,03:30; 04:00; 04:30,,,03:09pm
+47,Tensor Contraction Running Time,DEVIN LANGE; MAX MARNO; FROST MITCHELL,,,04:00; 04:30; 05:00,,,04:24pm
+48,Time Series Outlier Detection,SHIKAI FANG; XINYI LI; YUWEI WANG,,,03:30; 04:00; 04:30,,,03:57pm
+49,Top Music Lyrics,TAJEN FREEMAN; JAECEE NAYLOR,,,03:30; 04:00,,,03:36pm
+50,Tweets and Debate Transcripts of Presidential Election,HAN AMBROSE; SOREN NELSON,,,03:30; 04:00; 05:00,,,05:27pm
+51,Walmart Stores,ADAM DRAHEIM; MARIO GARZA SALAS; CHRIS GRANGER,,,03:30; 04:30; 05:00,,,05:00pm
+52,Weather Forecast,COLEMAN DUNN; JONATHAN RALLISON; BRANDON RECCE,,,03:30; 04:00; 04:30,,,04:03pm
+53,Wikilinks,WYATT DAVIS; NGUYEN TRAN; JESSICA VALLEJOSFUENTESRIVERA,,https://us04web.zoom.us/j/9218679271,04:00; 04:30; 05:00,,,04:30pm

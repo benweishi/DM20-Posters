@@ -10,24 +10,26 @@ layout: home
 </div>
 
 <div class="projects-grid">
-{% for project in site.data.projects %}
+{% assign projects = site.data.projects | sort:"EPVT" %}
+{% for project in projects %}
+{% capture project_title %} {% if project.Title.size > 0 %} {{ project.Title }} {% else %} {{ project.Group_Name }} {% endif %} {% endcapture %}
 <div class="projects-cell">
-  <a href="{{ project.address }}">
+  <a href="{{ project.Zoom_link }}">
     <div class="projects-image">
-        <img alt="{{ project.name }}" src="https://images-na.ssl-images-amazon.com/images/I/91wkoe9lV4L._AC_UL480_SR480,480_.jpg" class="poster-image" height="210" width="230">
+      <img alt="{{ project_title }}" src="{{ '/assets/images/no_image.png' | relative_url }}" class="poster-image">
     </div>
     <div class="projects-name">
-      {{ project.name }}
+      {{ project_title }}
     </div>
   </a>
   <div class="projects-members">
     {{ project.members }}
   </div>
   <div class="projects-time">
-    {{ project.time }}
+    {{ project.time_slots }} ({{ project.EPVT }})
   </div>
   <div class="projects-members">
-    ID: {{ project.number }}
+    ID: {{ project.ID }}
   </div>
 </div>
 {% endfor %}
