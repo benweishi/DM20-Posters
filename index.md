@@ -15,7 +15,15 @@ layout: home
 {% capture project_title %} {% if project.Title.size > 0 %} {{ project.Title }} {% else %} {{ project.Group_Name }} {% endif %} {% endcapture %}
 <div class="projects-cell">
   <div class="projects-image">
-    <img alt="{{ project_title }}" src="{{ '/assets/images/no_image.png' | relative_url }}" class="poster-image">
+    {% capture image_path %}/assets/images/thumbnails/{{ project.ID }}.jpg{% endcapture %}
+    {% assign find = false %}
+    {% for static_file in site.static_files %}
+      {% if static_file.path == image_path %}
+          {% assign find = true %}
+      {% endif %}
+    {% endfor %}
+    {% if find %} {% else %} {% assign image_path = '/assets/images/no_image.png' %} {% endif %}
+    <img alt="{{ project_title }}" src="{{ image_path | relative_url }}" class="poster-image">
   </div>
   <div class="projects-name">
     {{ project_title }}
